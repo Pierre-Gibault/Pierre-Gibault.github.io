@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Roboto-regular;
+    src: url('fonts/roboto/Roboto-Regular.ttf');
+}
+
+
+html {
+    background: #111827;
+    font-family: Roboto-regular;
+}
+
+@media (min-width: 430px) {
+
+    #headerNav {
+        text-align: center;
+        margin-top: 4em;
+    }
+
+
+
+
+    .navbarLink {
+        color: #fff;
+        font-size: 1.5em;
+        text-decoration: none;
+        margin: 0 10px;
+        padding: 10px;
+        border-radius: 5px;
+        transition: 0.5s;
+    }
+
+    #nameSection {
+        text-align: center;
+        border: red 2px solid;
+        border-radius: 28px;
+        margin: 6em 15em 5em 15em;
+        transition: 0.5s;
+
+
+        -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 31px 16px 15px 11px rgba(0, 0, 0, 0);
+        box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 31px 16px 15px 11px rgba(0, 0, 0, 0);
+    }
+
+    #nameSection p {
+        color: #fff;
+        font-size: 7em;
+    }
+}
