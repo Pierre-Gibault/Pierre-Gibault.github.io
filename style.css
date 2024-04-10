@@ -12,6 +12,15 @@ body {
 
 @media (min-width: 430px) {
 
+    hr{
+        background-color: white;
+    }
+
+    .rainbowBorder {
+        -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 31px 16px 15px 11px rgba(0, 0, 0, 0);
+        box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 31px 16px 15px 11px rgba(0, 0, 0, 0);
+    }
+
     #headerNav {
         text-align: center;
         margin-top: 4em;
@@ -29,21 +38,28 @@ body {
 
     #nameSection {
         text-align: center;
-        border: red 2px solid;
-        border-radius: 28px;
         margin: 2em 2em 2em 2em;
         padding: 1em;
         font-size: 5em;
         transition: 0.5s;
+        border-radius: 15px;
 
-        -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 31px 16px 15px 11px rgba(0, 0, 0, 0);
-        box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 31px 16px 15px 11px rgba(0, 0, 0, 0);
     }
 
     #aboutMeSection{
 
+        border-radius: 15px;
         margin: 10em 4em 4em 4em;
 
+    }
+
+    .whiteShadow {
+        border-radius: 15px;
+        box-shadow: white -2px 2px 10px,white 2px -2px 10px,white 2px 2px 10px,white -2px -2px 10px;
+    }
+
+    .aboutMeH1{
+        font-size: 2em;
     }
 
     #firstSection {
@@ -58,32 +74,79 @@ body {
         margin: 1em;
         border: blue 1px solid;
         padding: 2em;
+        min-height: 8em;
     }
 
     #technicalSection {
         border: yellow 1px solid;
         margin: 1em;
         margin-bottom: 0px;
-        padding: 2em 2em 20em 2em ;
+        min-height: 12em;
+    }
+    
+    #technicalSection > h1 {
+        margin-left: 1em;
+    }
+
+    #technicalSection {
+        text-align: center;
+    }
+
+    #technicalsLogo {
+        display: flex;
+    }
+
+    .technicalLogo {
+        width: 4em;
+        margin: 0.5em;
     }
 
     #professionalBackgroundSection {
         border: white 1px solid;
         margin: 1em;
         max-width: 20em;
+        min-height: 20em;
         padding: 2em;
+        width: 40em;
     }
 
     #interestSection {
         border: green 1px solid;
         margin: 1em;
-        padding: 3em; 
+        padding: 1em; 
+        min-width: 10em;
     }
 
     #statusSection {
         border: pink 1px solid;
         margin: 1em;
         padding: 2em; 
+    }
+
+    #futureSection{
+        border-radius: 15px;
+        font-size: 1.2em;
+        margin: 0em 10em 10em 10em;
+        padding: 5em;
+    }
+
+    #ProjectsSection{
+        border-radius: 15px;
+        margin: 0em 15em 5em 15em;
+        height: 30em;
+        display: flex;
+    }
+
+    #ProjetctTextSection{
+        border-radius: 15px;
+        margin: 5em;
+        padding: 1em;
+    }
+    #contactSection{
+        border-radius: 15px;
+    }
+    .contactLinks{
+        margin: 2em;
     }
 
 }
